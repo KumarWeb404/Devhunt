@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.section-1 {
+  height: 125vh;
+  position: relative;
+  padding: 0;
+}
+.navbar {
+  position: absolute;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.nav-links {
+  width: 40%;
+}
+.nav-links ul {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  list-style: none;
+}
+.img-sky {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-image: url('./img/Landing-sky.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.img-building {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 25.5%;
+  background-image: url('./img/Landing-buildings.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading {
+  max-width: 1003px;
+  position: relative;
+  margin: 0 auto;
+  top: 24%;
+  z-index: -1;
+}
+.heading h1 {
+  font-family: 'Open-Sans', sans-serif;
+  letter-spacing: -10px;
+  font-weight: 700;
+  font-size: 12em;
+  text-align: center;
+  color: white;
+  background: #ffedea;
+  background: linear-gradient(to bottom, #ffffff 35%, #c38775 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
